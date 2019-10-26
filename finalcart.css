@@ -1,0 +1,72 @@
+body{
+background-color: #2f3640;
+
+echo "<div class="newor"> .orderid: " . $row["orderid"]. "<br><div class="ordername"> - Name: " . $row["fname"].  "</div> <br> <div class="mail"> email:" . $row["email"]. "</div><br><div class="ordernum"> orderdesc: " . $row["itemdesc"]. "</div><br>";
+ echo"</div></h1>";
+}
+
+@keyframes mywelcome{
+	0% {top: -500px;}
+	100% {}
+}
+
+h1{
+  font-size: 100px;
+  font-family: 'Roboto', sans-serif;
+  left: 35%;
+  top: 200px;
+  position: absolute;
+  animation: mywelcome 1s 1;
+  animation-direction: normal;
+  color: white;
+}
+
+.uname{
+  border: none;
+  position: absolute;
+  top: 50%;
+  left: 33%;
+  background: #f5f6fa;
+  border-radius: 40px;
+  padding: 10px;
+  align-items: center;
+  width: 20%;
+  height: 60px;
+  outline: none;
+  line-height: 40px;
+
+
+}
+
+.sub{
+  border: none;
+  background-color: #fbc531;
+  border-radius: 50%;
+  color: white;
+  float: right;
+  position: absolute;
+  top: ;
+  left: %;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+  outline: none;
+}
+
+.btn{
+  border-radius: 50%;
+  color: black;
+  float: right;
+  position: absolute;
+  top: 50%;
+  left: 58%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}

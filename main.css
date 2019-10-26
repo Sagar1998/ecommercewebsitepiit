@@ -1,0 +1,321 @@
+h2{
+	font-size: 50px;
+	font-family: 'Roboto', sans-serif;
+	position: absolute;
+	left: 100px;
+	top: 230px;
+	color: #eb2f06;
+	animation: myfirst 2s 1;
+ 	 animation-direction: normal;
+}
+@keyframes myfirst{
+	0% {top: -500px;}
+	100% {top: 230px; left: 100px;}
+}
+
+@keyframes mywelcome{
+	0% {top: -500px;}
+	100% {}
+}
+
+
+
+h1{
+	font-size: 100px;
+	font-family: 'Roboto', sans-serif;
+	left: 100px;
+	top: 80px;
+	position: absolute;
+	animation: mywelcome 2s 1;
+ 	animation-direction: normal;
+
+}
+body{
+  background-image: url("firstbg.jpg");
+
+  background-size: 1920px 1080px;
+  }
+
+.modal-content{
+	width:500px;
+	height:800px;
+	background-color: white;
+	position: absolute;
+	top: 45%;
+	left: 350px;
+	transform: translate(-50%,-50%);
+	border-radius: 40px;
+
+}
+.modal{
+	display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 80px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;/* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-image: url("loginbg.jpg");
+  background-size: 1920px 1080px;
+   /* Black w/ opacity */
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  position: absolute;
+  top: 35px;
+  right: 50px;
+}
+
+.close:hover,
+.close:focus {
+  color: #345759;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button{
+	background-color: #079992;
+	border: none;
+	color: white;
+	padding: 40px 50px;
+	text-align: center;
+	display: inline-block;
+	margin: 50px 50px;
+	cursor: pointer;
+	border-radius: 500px;
+	position: absolute;
+	left: 280px;
+	top: 45%;
+	animation: mybtn 3s 1;
+	animation-direction: normal;
+
+
+}
+
+@keyframes mybtn{
+	0% {left: -500px;}
+	100% {left: 280px; top: 45%;}
+}
+
+
+.login-form h1{
+	text-align: center;
+	margin-bottom: 60px;
+	animation: none;
+	position: absolute;
+	top: 15%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+}
+.txtb{
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 40%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	font-family: 'Roboto', sans-serif;
+}
+.txta{
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	font-family: 'Roboto', sans-serif;
+
+}
+.txtc{
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 60%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	font-family: 'Roboto', sans-serif;
+
+}
+.txtd{
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 70%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	font-family: 'Roboto', sans-serif;
+
+}
+.txte{
+	border-bottom: 2px solid black;
+	position: absolute;
+	top: 80%;
+  	left: 50%;
+  	transform: translate(-50%,-50%);
+	font-family: 'Roboto', sans-serif;
+
+}
+
+.txta input{
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 300px;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+
+}
+.txtb input{
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 300px;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.txtc input{
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 300px;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.txtd input{
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 300px;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.txte input{
+	font-size: 15px;
+	color: #333;
+	border: none;
+	width: 300px;
+	outline: none;
+	background: none;
+	padding: 0 5px;
+	height: 40px;
+	font-family: 'Roboto', sans-serif;
+}
+
+.txta span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #2f3640;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s
+}
+.txtb span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #2f3640;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s
+}
+.txtc span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #2f3640;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s
+}
+.txtd span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #2f3640;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s
+}
+.txte span::before{
+	content: attr(data-placeholder);
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #2f3640;
+	transform: translateY(-50%);
+	z-index: -1;
+	transition: .5s
+}
+
+.txta span::after{
+	content: '';
+	position: ;
+	width: 0%;
+	height: 2px;
+	background: #0a3d62;
+	transition: 0.5s;
+
+}
+.txtb span::after{
+	content: '';
+	position: ;
+	width: 0%;
+	height: 2px;
+	background: #0a3d62;
+	transition: 0.5s;
+
+}
+.txtc span::after{
+	content: '';
+	position: ;
+	width: 0%;
+	height: 2px;
+	background: #0a3d62;
+	transition: 0.5s;
+
+}
+.txtd span::after{
+	content: '';
+	position: ;
+	width: 0%;
+	height: 2px;
+	background: #0a3d62;
+	transition: 0.5s;
+
+}
+.txte span::after{
+	content: '';
+	position: ;
+	width: 0%;
+	height: 2px;
+	background: #0a3d62;
+	transition: 0.5s;
+
+}
+.focus + span::before{
+	top: -5px;
+}
+.focus + span::after{
+	width: 100%;
+}
+}

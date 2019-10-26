@@ -1,0 +1,220 @@
+body{
+  background: #f5f6fa;
+}
+.top{
+  background: #2f3640;
+  width: auto;
+  height: 10%;
+  position: relative;
+  display: block;
+
+}
+.logo{
+  height: 120%;
+  width: auto;
+  position: absolute;
+  left: 350px;
+  margin: -10px;
+
+}
+.cartbtn{
+  color: #dcdde1;
+  position: relative;
+  top: 25px;
+  right: 50px;
+  float: right;
+
+}
+
+
+
+
+.searchbox{
+  position: absolute;
+  left: 30%;
+  background: #f5f6fa;
+  border-radius: 40px;
+  padding: 10px;
+  align-items: center;
+  top: 15px;
+  transition: 0.5s;
+
+}
+.searchbtn{
+  background-color: #353b48;
+  border-radius: 50%;
+  color: white;
+  float: right;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchtxt{
+  border: none;
+  background: none;
+  padding: 0px;
+  outline: none;
+  color: #2f3640;
+  font-size: 16px;
+  line-height: 40px;
+  width: 240px;
+  float: left;
+  transition: 1s;
+
+}
+.searchbox:hover > .searchtxt{
+  width: 800px;
+  padding: 0px;
+}
+
+.searchbtn:hover{
+  background-color: #e84118;
+}
+input:focus {
+   width: 800px;
+}
+
+.login{
+ position: relative;
+  top: 15%;
+  right: 300px;
+  float: right;
+  transition: 1s;
+
+}
+
+.welcome
+{
+  position: relative;
+   top: 0%;
+   right: 200px;
+   float: right;
+   transition: 1s;
+
+
+}
+
+.login h3{
+  color: #4cd137;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.login h3:hover{
+          color: white;
+}
+.cartbtn:hover{
+  color: #e84118;
+}
+
+
+h3{
+  font-family: 'Big Shoulders Text', cursive;
+  text-align: center;
+  font-size: 25px;
+}
+
+.clothing{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+
+  left: 2.5%;
+ background-image: url("clothing.png");
+
+  align-self: center;
+}
+.footwear{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+  top: 50px;
+  left: 2.5%;
+  background-image: url("footwear.png");
+
+
+  align-self: center;
+}
+.mobile{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+  top: 100px;
+  left: 2.5%;
+  background-image: url("mobile.png");
+
+
+  align-self: center;
+}
+.books{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+  top: 150px;
+  left: 2.5%;
+ background-image: url("books.png");
+
+  align-self: center;
+}
+.electronics{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+  top: 200px;
+  left: 2.5%;
+ background-image: url("electronics.png");
+
+  align-self: center;
+}
+
+.sports{
+  width: 1800px;
+  height: 300px;
+
+  position: relative;
+  top: 250px;
+  left: 2.5%;
+  background-image: url("sports.png");
+  align-self: center;
+}
+
+h1{
+   font-family: 'Roboto', sans-serif;
+   font-size: 70px;
+   position: relative;
+   left: 3%;
+   top: 10%;
+}
+
+.clothingbut{
+  border-radius: 50%;
+  background-color: #fbc531;
+  border: 0px solid black;
+  color: black;
+  width: 0px;
+  height: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  position: relative;
+  left: 5%;
+  top: 8%;
+  border-color: black;
+  color: white;
+}
+
+.clothingbut:hover{
+  width: 120px;
+  height: 120px;
+  border: 10px solid black;
+  left: 3%;
+  top: 3%;
+}

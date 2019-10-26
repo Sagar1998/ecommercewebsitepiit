@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <style>
+    body{
+      background-color: #2f3640;
+    }
+    @keyframes mywelcome{
+    	0% {top: -500px;}
+    	100% {}
+    }
+
+    h1{
+      font-size: 50px;
+      font-family: 'Roboto', sans-serif;
+      left: 28%;
+      top: 200px;
+      position: absolute;
+      animation: mywelcome 1s 1;
+      animation-direction: normal;
+      color: white;
+    }
+
+    .uname1{
+      border: none;
+      position: absolute;
+      top: 45%;
+      left: 33%;
+      background: #f5f6fa;
+      border-radius: 40px;
+      padding: 10px;
+      align-items: center;
+      width: 20%;
+      height: 60px;
+      outline: none;
+      line-height: 40px;
+
+
+    }
+
+    .uname2{
+      border: none;
+      position: absolute;
+      top: 55%;
+      left: 33%;
+      background: #f5f6fa;
+      border-radius: 40px;
+      padding: 10px;
+      align-items: center;
+      width: 20%;
+      height: 60px;
+      outline: none;
+      line-height: 40px;
+
+
+    }
+
+    .sub{
+      border: none;
+      background-color: #fbc531;
+      border-radius: 50%;
+      color: white;
+      float: right;
+      position: absolute;
+      top: ;
+      left: %;
+      width: 100px;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: -1;
+      outline: none;
+    }
+
+    .btn{
+      border-radius: 50%;
+      color: black;
+      float: right;
+      position: absolute;
+      top: 50%;
+      left: 58%;
+      width: 70px;
+      height: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 1;
+    }
+
+    </style>
+    <script src="https://kit.fontawesome.com/a458080d9e.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:700&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>
+      Enter the details to check your orders
+    </h1>
+
+    <center>
+      <form  action="orderhistory.php" method="post">
+
+
+      <input class="uname1" type="text" name="fname" placeholder="enter name">
+      <input class="uname2" type="text" name="email" placeholder="enter email">
+      <a class="btn">
+        <i class="fas fa-hand-point-right fa-3x"></i>
+        <input class="sub" type="submit" name="" value="">
+      </form>
+    </center>
+  </body>
+</html>
